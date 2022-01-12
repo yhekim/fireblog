@@ -1,0 +1,157 @@
+.details{
+    width: 100%;
+    max-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.details h1{
+   font-family: 'Girassol', cursive;
+   color:#046582;
+   text-align: center;
+   
+   font-size: 3rem;
+
+}
+.languages{
+   max-width: 1000px;
+   height: 100vh;
+    margin: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#000;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+
+.language-image{
+   
+   height: 350px;
+   width: 1000px;
+   background-color: #fff;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+}
+.logoimage{
+  
+   height: 340px;
+    font-size: 50px;
+    padding: 0.5rem 0;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.language-info{
+   height: 350px;
+   width: 1000px;
+   background-color: rgb(172, 213, 224);
+   padding:1rem 0.8rem;
+   text-align: inherit;
+   background-color:#efeefe ;
+}
+.language-info h2{
+   margin-bottom: 1rem;
+   color: #046582;
+   font-family: Girassol;
+   font-weight: 400;
+}
+.language-info h5{
+   margin-bottom: 1rem;
+   font-size: 0.88rem;
+   font-weight: 400;
+   color: rgba(0, 0, 0, 0.54);
+
+
+}
+.language-info p{
+   text-overflow: ellipsis;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   color: rgba(0, 0, 0, 0.87);
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 400;
+
+
+
+}
+.mailcard{
+   height: 250px;
+   width: 1000px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   font-size: 5rem;
+   background-color: #fff;
+}
+span{
+   font-size: 1.6rem;
+   margin-right: 1.5rem;
+   
+}
+h6{font-size: 1.6rem;}
+.FcLike{
+   
+   margin-left: 1.8rem;
+   
+}
+.mail{
+   display: flex;
+   align-items: center;
+
+}
+
+.comment-like{
+   display: flex;
+}
+p{
+   font-size: 1.5rem;
+ 
+}
+.detail-button{
+    max-width: 1000px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 0 3rem 0;
+    
+    
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+button:hover{
+    transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+}
+.buttondelete{
+    background-color: red;
+}
+.buttonupdate{
+    background-color: green;
+    margin-left: 4rem;
+}

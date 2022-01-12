@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.register {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url("https://picsum.photos/800/800")  no-repeat center;
+    background-size: cover;
+  }
+  
+  .register-form {
+    max-height: 600px;
+    max-width: 750px;
+    background-color: #eeeeee;
+    color: #000000;
+    padding: 5rem;
+  }
+  
+.form-label {
+    padding-left: 1.5rem;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+  }
+  
+  .form-control {
+    width: 90%;
+  }
+  
+  
+  .btn-primary {
+    margin-left: 1.5rem;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 3rem;
+  } */
+  
+   .form-image { 
+    /* flex: 1; */
+     min-width: 800px;
+    min-height: 800px;
+  } 
+  

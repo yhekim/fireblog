@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+.register {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://picsum.photos/800/800")  no-repeat center;
+    background-size: cover;
+  }
+ 
+  
+  #register {
+   
+    max-width: 500px;
+    max-height: 800px;
+    background-color: #eee;
+    color: #000000;
+    padding: 5rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+  
+.form-label {
+    padding-left: 1.5rem;
+    margin-bottom: 0px;
+    font-size: 1.3rem;
+  }
+  .form-control{
+    width: 300px;
+    margin: 20px;
+   
+  
+  }
+  
+  .form-control {
+    width: 90%;
+  }
+ 
+  
+  .btn-primary {
+    margin-left: 1.5rem;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 2rem;
+  } 
+  
