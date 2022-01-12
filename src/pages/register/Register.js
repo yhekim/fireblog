@@ -1,9 +1,14 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
+import {
+  createUserWithEmailAndPassword,
+  GoogleAuthProvider,
+  signInWithPopup,
+  updateProfile,
+} from "firebase/auth";
 import "./Register.css";
 import { auth } from "../../helpers/firebase";
-import { successNote, warningNote } from "../../helpers/toastNotify";
+import { errorNote, successNote, warningNote } from "../../helpers/toastNotify";
 
 const Register = () => {
   const navigate = useNavigate();
@@ -25,6 +30,18 @@ const Register = () => {
     } catch (err) {
       warningNote("Please enter valid information");
     }
+  };
+
+  const handleGoogleSubmit = async () => {
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        navigate("/");
+        successNote("Login successfully");
+      })
+      .catch((error) => {
+        errorNote("Please Enter the Right Mail and Password");
+      });
   };
 
   return (
@@ -84,6 +101,12 @@ const Register = () => {
           className="btn btn-primary form-control"
           value="Register"
           onClick={handleSubmit}
+        />
+        <input
+          type="button"
+          className="btn btn-primary form-control"
+          value="Sign In Google"
+          onClick={handleGoogleSubmit}
         />
       </form>
     </div>
